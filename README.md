@@ -20,15 +20,15 @@ JSON is parsed for display on a serial LCD.
 * #define LOCATIONID "CA/Pleasant_Hill" (US City)
 
 ## *Process:*
-*Hard Reset
-*Connect to WiFi
-*Set to single connection
-*Set up TCP connection
-*Send data (GET) to wunderground
-*Use Serial to read the returned json (JavaScript Object Notation) pairs
-*Parse the key-value pairs
-*Display 
-*Wait 15 minutes (to keep within limits of free API license)
+* Hard Reset
+* Connect to WiFi
+* Set to single connection
+* Set up TCP connection
+* Send data (GET) to wunderground
+* Use Serial to read the returned json (JavaScript Object Notation) pairs
+* Parse the key-value pairs
+* Display 
+* Wait 15 minutes (to keep within limits of free API license)
 
 
 
