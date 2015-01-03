@@ -1,6 +1,8 @@
 # **ESP8266 Weather Display**
 ## *Description:*
 This is an Arduino project that uses the cheap ESP8266 WiFi module. 
+For more details see the blog posting: http://thisoldgeek.blogspot.com/2015/01/esp8266-weather-display.html
+
 
 The sketch connects to wunderground.com and returns current weather conditions
 for your location every 15 minutes. The returned data is formatted as JSON. The
