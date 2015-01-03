@@ -30,6 +30,7 @@ JSON is parsed for display on a serial LCD.
 * Use Serial to read the returned json (JavaScript Object Notation) pairs
 * Parse the key-value pairs
 * Display 
+* Close the connection
 * Wait 15 minutes (to keep within limits of free API license)
 
 
