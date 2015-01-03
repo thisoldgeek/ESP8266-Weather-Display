@@ -8,6 +8,8 @@ JSON is parsed for display on a serial LCD.
 
 ## *Configuration:*
 * You will need an API key (free) from http://www.wunderground.com/weather/api/d/login.html
+* You must install ArduinoJson in your sketchbook/libraries folder (https://github.com/bblanchon/ArduinoJson)
+* You must be using Arduino 1.0.6 or later for ArduinoJson library to install properly - it uses nested include statements
 * Change the following:
   * SSID - name of your network
   * PASS - password for your network
