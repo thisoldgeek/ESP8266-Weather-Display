@@ -35,6 +35,25 @@ JSON is parsed for display on a serial LCD.
 * Close the connection
 * Wait 15 minutes (to keep within limits of free API license)
 
+# *Pro Trinket Notes Updated 01-07-2015*
+The Pro Trinket 3V runs at 12Mhz. SoftwareSerial (required for this project) through Arduino 1.0.6
+only has a version of SoftwareSerial that supports 8, 16 and 20MHz. You will need to update the 
+SoftwareSerial.cpp file, available here.
+
+Instructions for updating SoftwareSerial.cpp on a Mac:
+* Close Arduino if running
+* Open a New Finder Window
+* Open Applications, highlight Arduino (or whatever you name your Arduino app)
+* Show Package Contents
+* Open Resources\Java\libraries\SoftwareSerial
+* Copy SoftwareSerial.cpp (downloaded from github) to this folder, replacing the older version of SoftwareSerial.cpp
+* Restart Arduino
+
+
+
+
+
+
 
 
 
