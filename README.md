@@ -49,7 +49,16 @@ Instructions for updating SoftwareSerial.cpp on a Mac:
 * Copy SoftwareSerial.cpp (downloaded from github) to this folder, replacing the older version of SoftwareSerial.cpp
 * Restart Arduino
 
+## *Update April 29, 2016 for Adafruit Feather Huzzah:*
+This code uses the ESP8266WiFi library to do Web client calls via the Feather Huzzah. The older version in this git
+does straight-up serial AT Command Set calls to the ESP8266 module. 
 
+The code update here is based on Mike Rankin's ESP8266 OLED Weather Display:
+https://github.com/mike-rankin/ESP8266_OLED_Display
+
+My version still prints to a 4x20 LCD display. You will still need to use an LM317 voltage regulator as described in 
+the blog post at http://thisoldgeek.blogspot.com/2015/01/esp8266-weather-display.html.
+This is because the 4x20 LCD requires 5v at a hight current than the Feather Huzzah can supply.
 
 
 
